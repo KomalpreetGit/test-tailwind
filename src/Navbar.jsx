@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import brandLogo from './assets/brand_logo.png';
 
 function Navbar(){
@@ -7,10 +8,11 @@ function Navbar(){
             <img src={brandLogo} />
         </div>
         <ul className="flex">
-            <li className="px-2">MENU</li>
-            <li className="px-2">LOCATION</li>
-            <li className="px-2">ABOUT</li>
-            <li className="px-2">CONTACT</li>
+            <li className="px-2"><Link to="/" >HOME</Link></li>
+            <li className="px-2"><Link to="/GetStarted" >GAME</Link></li>
+            <li className="px-2"><Link to="/About">ABOUT</Link></li>
+            <li className="px-2"><Link to="/Contact">CONTACT</Link></li>
+
         </ul>
         <button className="bg-red-500 p-1 text-white px-4 py-1">Login</button>
     </nav>

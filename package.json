@@ -13,6 +13,8 @@
     "@tailwindcss/vite": "^4.1.16",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
+    "react-router-dom": "^7.9.4",
+    "styled-components": "^6.1.19",
     "tailwindcss": "^4.1.16"
   },
   "devDependencies": {
@@ -25,5 +27,10 @@
     "eslint-plugin-react-refresh": "^0.4.22",
     "globals": "^16.4.0",
     "vite": "^7.1.7"
+  },
+  
+  "resolutions": {
+    "styled-components": "^5"
   }
+
 }
